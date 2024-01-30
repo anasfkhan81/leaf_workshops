@@ -63,7 +63,7 @@
             <byline>BY <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909">VIRGINIA WOOLF</persName></byline>
 
 
-            <p><persName type="fictional">Mrs Dalloway</persName> said she would buy the gloves herself.</p>
+            <p><persName type="fictional" key="Dalloway, Clarissa" ref="http://viaf.org/viaf/766159234400703371493/">Mrs Dalloway</persName> said she would buy the gloves herself.</p>
             <p><placeName cert="high">Big Ben</placeName> was striking as she stepped out into the street. It was eleven o'clock and
                the unused hour was fresh as if issued to children on a beach. But there was
                something solemn in the deliberate swing of the repeated strokes; something stirring
