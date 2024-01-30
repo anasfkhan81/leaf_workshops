@@ -91,7 +91,7 @@
                the china shop, for they had known each other as children. "Where are you off
                to?"</p>
             <pb n="21" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_02.jpg"/>
-            <p>"I love walking in London" said Mrs Dalloway. "Really it's better than walking in the
+            <p>"I love walking in <placeName key="London" ref="http://www.wikidata.org/entity/Q84">London</placeName>" said Mrs Dalloway. "Really it's better than walking in the
                country!"</p>
             <p>"We've just come up" said Hugh Whitbread. "Unfortunately to see doctors."</p>
             <p>"Milly?" said Mrs Dalloway, instantly compassionate.</p>
