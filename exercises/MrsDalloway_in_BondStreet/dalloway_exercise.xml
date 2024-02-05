@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -44,7 +41,87 @@
          </sourceDesc>
       </fileDesc>
 
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/anasfkhan81/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240205164109264",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-05T15:41:09.264Z",
+	"dcterms:modified": "2024-02-05T15:41:09.264Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/anasfkhan81",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anas Fahad Khan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/anasfkhan81/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240205164109264#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/anasfkhan81/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/anasfkhan81/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240205164109264#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q9682",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
 
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -101,7 +178,7 @@
                probably that, Hugh's manner had said so, said it perfectly—dear old Hugh,
                thought Mrs Dalloway, remembering with amusement, with gratitude, with emotion, how
                shy, like a brother—one would rather die than speak to one's brother—Hugh had always
-               been, when he was at <placeName key="University of Oxford" ref="http://www.wikidata.org/entity/Q34433" cert="high">Oxford<precision match="@ref" precision="high" /></placeName>, and came over, and perhaps one of them (drat the thing!)
+               been, when he was at <placeName key="University of Oxford" ref="http://www.wikidata.org/entity/Q34433" cert="high">Oxford<precision match="@ref" precision="high"/></placeName>, and came over, and perhaps one of them (drat the thing!)
                couldn't ride. How then could women sit in Parliament? How could they do things with
                men? For there is this extraordinarily deep instinct, something inside one; you can't
                get over it; it's no use trying; and men like Hugh respect it without our saying it,
@@ -115,8 +192,8 @@
                woman. It matters so much to the poor, thought Clarissa, and to the soldiers. A man
                in bronze stood heroically on a pedestal with a gun on her left hand side—the South African war. It matters, thought Mrs Dalloway walking towards Buckingham Palace.
                There it stood four-square, in the broad sunshine, uncompromising, plain. But it was
-               character she thought; something inborn in the race; what Indians respected. The
-               Queen went to hospitals, opened bazaars—the Queen of England, thought Clarissa,
+               character she thought; something inborn in the race; what Indians respected. <persName key="Elizabeth II" ref="http://www.wikidata.org/entity/Q9682" cert="medium" type="real">The
+               Queen</persName> went to hospitals, opened bazaars—the Queen of England, thought Clarissa,
                looking at the Palace. Already at this hour a motor car passed out at the gates;
                soldiers saluted; the gates were shut. And Clarissa, crossing the road, entered the
                Park, holding herself upright.</p>
